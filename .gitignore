@@ -1,0 +1,5 @@
+# Local build outputs and the kit — never part of the entry.
+out/
+out1/
+out2/
+kit/

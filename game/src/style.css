@@ -1,0 +1,40 @@
+/* AZURE REACH — page chrome. The game itself is drawn on the canvas;
+   this file only centres it and sets the page around it. */
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b1220;
+  color: #e8eefc;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  min-height: 100%;
+}
+
+#stage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px 12px 24px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #0e1622;
+  border: 1px solid #2c3542;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#caption {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #9fb0c8;
+}
+
+#caption strong {
+  color: #ffd94c;
+}
